@@ -1,0 +1,16 @@
+
+.navbarBrandStyle {
+  /* background-image: url(../images/logo/ford-vector-logo.svg); */
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80px;
+}
+.navColStyle {
+  font-size: 16px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.navLinkStyle {
+  color: black;
+}

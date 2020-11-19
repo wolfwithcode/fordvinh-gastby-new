@@ -1,0 +1,27 @@
+.carCard {
+  border-radius: 0 !important;
+}
+
+.carImg {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.carValue {
+  background: blue;
+  color: white;
+  clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
+  transition: all 1s linear;
+}
+
+.carValue:hover {
+  clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0 100%);
+}
+
+.carInfo {
+  margin-bottom: 0.5em;
+}
+
+.cardBody {
+  padding: 0.5em;
+}
